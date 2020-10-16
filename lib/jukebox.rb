@@ -23,6 +23,7 @@ def play(songs)
   user_response = gets.strip
   if songs.include?(user_response)
     puts "Playing #{user_response}"
+  elsif user_response
   else
     puts "Invalid input, please try again"
   end
